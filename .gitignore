@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# SECRETS — never commit these.
+# The signing key + its password let someone publish updates AS YOU on Play.
+# Keep them in a password manager and a backup drive instead.
+# ---------------------------------------------------------------------------
+upload-keystore.jks
+*.jks
+*.keystore
+flutter_app/android/key.properties
+
+# Personal financial data (family expense exports/backups)
+deleted-families-backup-*.json
+
+# ---------------------------------------------------------------------------
+# Generated build output — huge and re-creatable, never store it.
+# ---------------------------------------------------------------------------
+**/build/
+**/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/android/.kotlin/
+flutter_app/.gradle/
+
+# Node / web tooling
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/
